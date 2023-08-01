@@ -1,0 +1,126 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: $white-color;
+  font-weight: 400;
+  color: $dark-blue-text;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+  // If you want to set a background image on the hero section, uncomment these with yout custom image
+
+  /* background: url("/src/assets/[your-image].png");
+  background-position: center;
+  background-size: cover; */
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .hero-title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    text-align: left;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+
+    @include respond(tab-port) {
+      text-align: center;
+    }
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
+  }
+
+  .hero-company {
+    font-size: 2rem; // Add this line to set the font size for hero-company
+
+    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    // Responsive text purple style
+    @include respond(phone) {
+      background-image: none;
+      -webkit-text-fill-color: $secondary-color;
+    }
+  
+    transition: color 0.3s; // Add a smooth transition for the color change
+    &:hover {
+      opacity: 0.5;
+    }
+      
+
+  }
+
+  .hero-cta {
+    display: flex;
+
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+
+    & a {
+      font-size: 2.4rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; // Align the contact section to the left
+    margin-top: 2rem;
+    text-align: left; // Align the text to the left
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .contact-icon {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        color: $primary-color; // Use your desired color here
+      }
+
+      .contact-text {
+        font-size: 2rem; // Use the same font size as hero-description
+        color: $dark-blue-text; // Use the same text color as hero-description
+      }
+    }
+  }
+
+}
