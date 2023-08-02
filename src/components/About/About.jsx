@@ -31,7 +31,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I've completed 4 full-stack software development internships, receiving "Outstanding" and "Excellent" ratings, and leaving a measurable impact at each company. I have a strong intuition for problem solving, a philosophy for practicality, and expertise in building full-stack systems from ideation to production.
+                  I've completed 4 full-stack software development internships, receiving "Outstanding" and "Excellent" ratings. I have a strong intuition for problem solving, a philosophy for practicality, and expertise in building full-stack systems from ideation to production.
                 </p>
                 <br></br>
                 <div className="about-wrapper__info-text">
