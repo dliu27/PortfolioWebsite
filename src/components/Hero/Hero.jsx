@@ -28,13 +28,13 @@ const Header = () => {
     <section id="hero" className="jumbotron">
 
       <Container>
-        <Fade left={true} duration={1000} delay={500} distance="30px">
+        <Fade ssrFadeout={true} left={true} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {'Hi, my name is '}
             <span className="text-color-main">{'David.'}</span>
           </h1>
         </Fade>
-        <Fade left={true} duration={1000} delay={1500} distance="30px">
+        <Fade ssrFadeout={true} left={true} duration={1000} delay={1500} distance="30px">
           <p className="hero-description">
             I'm currently a student at the University of Waterloo studying Computer Science.
           </p>
@@ -91,7 +91,7 @@ const Header = () => {
         </Fade>
 
         {/* Contact Section */}
-        <Fade left={true} duration={1000} delay={2000} distance="30px">
+        <Fade ssrFadeout={true} left={true} duration={1000} delay={2000} distance="30px">
           <div className="contact-section">
             <div className="contact-item">
               <span className="contact-text">Contact:</span>
@@ -134,7 +134,7 @@ const Header = () => {
           </div>
         </Fade>
 
-        <Fade left={true} duration={1000} delay={1000} distance="30px">
+        <Fade ssrFadeout={true} left={true} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
