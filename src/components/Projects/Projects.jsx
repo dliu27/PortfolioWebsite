@@ -155,7 +155,6 @@ const Projects = () => {
                       {project.images.map((image, imageIndex) => (
                         <Carousel.Item key={imageIndex}>
                           <a
-                            href={project.liveLink}
                             target="_blank"
                             aria-label="Project Link"
                             rel="noopener noreferrer"
