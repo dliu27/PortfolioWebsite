@@ -1,4 +1,4 @@
-# <a href="https://www.danny-berger.dev/">David Liu's Portfolio Website</a>
+# <a href="https://dliu27.com/">David Liu's Portfolio Website</a>
 
 Single page, responsive portfolio website.
 
