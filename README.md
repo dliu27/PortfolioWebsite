@@ -1,6 +1,6 @@
 # <a href="https://dliu27.com/">David Liu's Portfolio Website</a>
 
-Single page, responsive portfolio website.
+Single page portfolio website with beautiful transitions.
 
 ## Technologies used 🛠️
 
