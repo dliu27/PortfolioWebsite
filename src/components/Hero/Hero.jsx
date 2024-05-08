@@ -48,7 +48,18 @@ const Header = () => {
               I'm currently a student at the University of Waterloo studying Computer Science.
             </p>
             <p className="hero-description">
-              I've previously interned as a Full-Stack Software Developer at{' '}
+              I've previously interned as a Software Engineer Intern at{' '}
+              <span>
+                <a
+                  href="https://www.tesla.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hero-company"
+                >
+                  Tesla
+                </a>
+              </span>
+              ,{' '}
               <span>
                 <a
                   href="https://www.streamforge.com/"
@@ -59,6 +70,7 @@ const Header = () => {
                   Streamforge
                 </a>
               </span>
+
               ,{' '}
               <span>
                 <a
@@ -67,7 +79,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="hero-company"
                 >
-                  Arctic Wolf Networks
+                  Arctic Wolf
                 </a>
               </span>
               ,{' '}
