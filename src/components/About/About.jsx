@@ -31,27 +31,35 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I've completed 4 full-stack software development internships, receiving "Outstanding" and "Excellent" ratings. I have a strong intuition for problem solving, a philosophy for practicality, and expertise in building full-stack systems from ideation to production.
+                  - Recently worked at Tesla as a SWE Intern (Winter 2024)
+                </p>
+                <br></br>
+                <p className="about-wrapper__info-text">
+                  - Senior CS student at the University of Waterloo
+                </p>
+                <br></br>
+                <p className="about-wrapper__info-text">
+                  - Excelled in 5 Software Engineering internships
                 </p>
                 <br></br>
                 <div className="about-wrapper__info-text">
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Languages:</span> Javascript, Python, GraphQL, Kotlin, Java, C++
+                    <span style={{ fontWeight: 'bold' }}>Languages:</span> Go, Python, JavaScript, Shell Scripting, GraphQL, Java, Kotlin, C++
                   </p>
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Frameworks:</span> React, Node, Express, Vue, TailwindCSS, Django, Apollo Client, Sass, Bootstrap, Lodash
+                    <span style={{ fontWeight: 'bold' }}>Technologies:</span> React, Node, MQTT, Redis, Postgres, Vue, Tailwind, Django, Docker, K8s, AWS, Git, Postman
                   </p>
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Tools:</span> AWS, PostgreSQL, Git, Docker, Linux, Postman, REST APIs
+                    <span style={{ fontWeight: 'bold' }}>Concepts:</span> Multithreading, Concurrency, Caching, MVC, OOP, Web/Mobile
                   </p>
                 </div>
                 <br></br>
                 <div className="about-wrapper__info-text">
                   <p>
-                    Outside of work, I enjoy playing basketball 🏀, flipping items on Kijiji 💹, and cooking 👨‍🍳
+                    Outside of work, I enjoy playing basketball 🏀, fitness 💪, and cooking 👨‍🍳
                   </p>
                   <p>
-                    I'm currently seeking Winter 2024 opportunities, would love to connect!
+                    I'm currently seeking Fall 2024 opportunities, would love to connect!
                   </p>
 
                 </div>
