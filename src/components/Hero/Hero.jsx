@@ -62,6 +62,18 @@ const Header = () => {
               ,{' '}
               <span>
                 <a
+                  href="https://dagster.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hero-company"
+                >
+                  Dagster Labs
+                </a>
+              </span>
+
+              ,{' '}
+              <span>
+                <a
                   href="https://www.streamforge.com/"
                   target="_blank"
                   rel="noopener noreferrer"
