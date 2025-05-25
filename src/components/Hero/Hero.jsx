@@ -119,7 +119,7 @@ const Header = () => {
               .
             </p>
             <p className="hero-description">
-              Let's discuss how I can bring my knowledge and experience to your company!
+              Feel free to connect if I sound like a good fit!
             </p>
           </Fade>
         )}
